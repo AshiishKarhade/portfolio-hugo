@@ -29,11 +29,6 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -104,7 +99,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Ashish Karhade" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -119,18 +114,18 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Ashish."
-    subtitle: "I build things for the web"
-    content: "A passionate backend and develops engineer. I tend to make use of modern backend technologies to build websites that runs funtastically."
-    image: /images/hero.svg
+    subtitle: "Backend Alchemist & DevOps Enthusiast 🧙‍♂️🔧"
+    content: "A software engineer with a penchant for backend wizardry and a curious obsession with DevOps sorcery.  I weave code spells that power the web, leaving a trail of awestruck users and websites that dance merrily in the cloud."
+    image: ./images/tn.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://www.icloud.com/iclouddrive/0c2zbATrfFWoNiXqqZY4Skdrg#Ashish%5FResume%5F2023"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
@@ -147,7 +142,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "./images/me.png"
     content: |-
       I am a passionate Software Engineer with a relentless passion for crafting robust backend solutions, driving seamless DevOps practices, and delving into the fascinating world of Machine Learning and Artificial Intelligence. Welcome to my portfolio, where I showcase my journey of innovation and dedication in the realm of software development.
 
@@ -170,6 +165,8 @@ params:
         - "Terraform"
         - "Cloud - AWS,Azure"
         - "Linux/Unix"
+        - "Machine Learning"
+        - "Artificial Intelligence"
 
   # Experience
   experience:
@@ -184,13 +181,13 @@ params:
         #   enable: true
         #   name: "View the project"
         #   url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "I am currently working as a software developer at [Credit Suisse](https://www.credit-suisse.com) in Pune, India. I am currently a Software Developer at Credit Suisse in Pune, India, I'm engaged in multiple exciting projects focused on crafting seamless CI/CD pipelines for diverse applications. My days are filled with tinkering with bash and Python scripts to ensure smooth pipeline operations. For Continuous Integration, we rely on the powerful GitLab CI, while Ansible takes the lead in orchestrating our efficient Continuous Deployment process. It's a tech adventure every day, and I love every bit of it! 🚀💻"
 
       - job: "Software Developer"
         company: "Raja Software Labs"
-        companyUrl: "https://www.rslabs.com"
+        companyUrl: "https://www.rajasoftwarelabs.com/history"
         date: "July 2021 - Aug 2021"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: "I had joined as a software developer at [RS Labs](https://www.rajasoftwarelabs.com/history) in Pune, India. I had completed an intensive 1-month web development training program. My learnt various things in EmberJS, JavaScript, and a range of web development functionalities, including REST APIs."
 
   # Education
   education:
@@ -205,94 +202,96 @@ params:
         date: "2017 - 2021"
         GPA: "8.5 out of 10.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          I Publiced one paper in the  Advances in Data Computing, Communication and Security Conference on AI.
+          - [CNN for Detection of COVID-19 Using Chest X-Ray Images](https://link.springer.com/chapter/10.1007/978-981-16-8403-6_22)
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+            - Leader @ Google Developer Students Club. 
+            - Taught Machine Learning to 120+ students across various universities in Maharashtra. 
+            - Received award for best event at Sinhgad Techfest, 2019. 
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Dr. Babasaheb Ambedkar College, Brahmapuri"
+          url: "#"
+        GPA: "8.0 out of 10.0"
+        content: |-
+          Studied Computer Science and Electronics.
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
 
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
+    title: "Certificates and Achievements"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
+      - title: Facilitator - Explore ML Program
+        content: Selected for Explore ML Program at Google Office, Hyderabad & Bangalore
+        url: https://events.withgoogle.com/explore-ml-in/
+      - title: Google's Developer Student Club Lead
+        content: Selected and Lead DSC Club at Sinhgad Institute of Technology, Pune. Conducted and taught on various events.
+      - title: Tensorflow Developer Certified
+        content: Cleared and received Tensorflow Certification from Google at first attempt.
         url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Microsoft Azure AZ-900 - Azure Fundamentals
+        content: Cleared Microsoft Azure fundamentals at first attempt
+      # - title: Google Summer of Code
+      #   content: Contributed to a open source project.
+      #   url: https://example.com
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: AudioVerse - Your Video-to-Audio Conversion Wizard
+        content: A highly scalable Video-to-Audio Conversion Powered by Kubernetes and Microservices.
         image: /images/projects/profile.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Source Code
+          link: https://github.com/AshiishKarhade/Microservices-with-Kubernetes-and-Python
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "Docker"
+          - "Kubernetes"
+          - "JWT"
+          - "REST"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/AshiishKarhade/Microservices-with-Kubernetes-and-Python
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: GoChatNow :- Real time chat Made Effortless
+        content: Connect, Chat, and Share Instantly with Real-time Websockets-Powered Conversations!
         image: /images/projects/converter.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Source Code
+          link: https://github.com/AshiishKarhade/Go-React-Chat-Application
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "GO"
+          - "WebSockets"
+          - "API"
+          - "Gin"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/AshiishKarhade/Go-React-Chat-Application
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      # - title: Hugo Profile V2
+      #   content: A clean and simple Hugo template for personal portfolio and blog.
+      #   image: /images/projects/profile2.jpg
+      #   featured:
+      #     name: Demo V2
+      #     link: https://hugo-profile-2.netlify.app
+      #   badges:
+      #     - "Hugo"
+      #     - "Bootstrap"
+      #     - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
