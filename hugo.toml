@@ -1,3 +1,4 @@
 baseURL = 'http://ashiishkarhade.netlify.app/'
 languageCode = 'en-us'
 title = 'Ashish Karhade'
+theme = 'hugo-profile'
