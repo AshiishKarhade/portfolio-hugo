@@ -116,7 +116,7 @@ params:
     title: "Ashish."
     subtitle: "Backend Alchemist & DevOps Enthusiast 🧙‍♂️🔧"
     content: "A software engineer with a penchant for backend wizardry and a curious obsession with DevOps sorcery.  I weave code spells that power the web, leaving a trail of awestruck users and websites that dance merrily in the cloud."
-    image: ./images/tn.png
+    image: /images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -142,7 +142,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "./images/me.png"
+    image: "/images/me.png"
     content: |-
       I am a passionate Software Engineer with a relentless passion for crafting robust backend solutions, driving seamless DevOps practices, and delving into the fascinating world of Machine Learning and Artificial Intelligence. Welcome to my portfolio, where I showcase my journey of innovation and dedication in the realm of software development.
 
@@ -250,7 +250,7 @@ params:
     items:
       - title: AudioVerse - Your Video-to-Audio Conversion Wizard
         content: A highly scalable Video-to-Audio Conversion Powered by Kubernetes and Microservices.
-        image: /images/projects/profile.png
+        image: /images/kubernetes.png
         featured:
           name: Source Code
           link: https://github.com/AshiishKarhade/Microservices-with-Kubernetes-and-Python
@@ -266,7 +266,7 @@ params:
 
       - title: GoChatNow :- Real time chat Made Effortless
         content: Connect, Chat, and Share Instantly with Real-time Websockets-Powered Conversations!
-        image: /images/projects/converter.jpg
+        image: /images/chatapp.png
         featured:
           name: Source Code
           link: https://github.com/AshiishKarhade/Go-React-Chat-Application
