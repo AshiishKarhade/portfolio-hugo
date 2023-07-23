@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Ashish Karhade"
-  description: Text about my cool site
+  description: Software Developer | Backend | Devops Enthusiast
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
